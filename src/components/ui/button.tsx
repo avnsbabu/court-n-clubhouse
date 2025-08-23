@@ -18,6 +18,10 @@ const buttonVariants = cva(
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        hero: "bg-gradient-to-r from-sports-green to-sports-blue text-white font-bold shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300",
+        sport: "bg-sports-orange text-white hover:bg-sports-orange/90 shadow-md hover:shadow-lg transition-all duration-300",
+        court: "bg-gradient-to-r from-sports-purple to-sports-blue text-white hover:opacity-90 transition-all duration-300",
+        equipment: "border-2 border-sports-green text-sports-green hover:bg-sports-green hover:text-white transition-all duration-300",
       },
       size: {
         default: "h-10 px-4 py-2",
